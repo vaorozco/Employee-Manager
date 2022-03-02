@@ -1,4 +1,4 @@
-# WebPractice1
+# Employee Manager as Web Practice #1
 Spring Boot Full Stack with Angular
 
 Tutorial from YouTube:
