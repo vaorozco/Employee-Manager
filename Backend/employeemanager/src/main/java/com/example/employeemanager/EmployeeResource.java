@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/employee")
-public class EmployeeResource { //this is the Controller Class
+public class EmployeeResource { //this is the class acting as a Controller Class
     private final EmployeeService employeeService;
 
     public EmployeeResource(EmployeeService employeeService) {
