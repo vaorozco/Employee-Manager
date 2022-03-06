@@ -10,3 +10,6 @@ If you want to be a spring boot full stack developer then you must learn the spr
 This Spring Boot tutorial covers Spring Boot and MySQL using Spring Data JPA. This course also dives into defining and creating a spring boot API, exposing API Endpoints Over HTTP, and  handling HTTP Requests through API Endpoints. It covers testing API Endpoints (using an HTTP client and the browser DevTools).
 
 This course also dives into Angular components, Angular Forms, Angular Routing, and Angular Services. It goes into Angular HTTP Communication."
+
+
+# Aspect that could be better: - Avoid increment of id, after deleting rows 
