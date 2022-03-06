@@ -47,4 +47,8 @@ public class EmployeeResource { //this is the class acting as a Controller Class
         return new ResponseEntity<>(HttpStatus.OK );
     }
 
+    /*@RequestMapping(value="/delete/{id}", method=RequestMethod.DELETE) (this also works)
+    public void deleteEmployee(@PathVariable(value = "id") Long id) {
+        employeeService.deleteEmployee(id);
+    }*/
 }

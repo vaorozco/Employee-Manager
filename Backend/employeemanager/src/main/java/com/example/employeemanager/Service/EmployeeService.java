@@ -32,11 +32,10 @@ public class EmployeeService {
 
     public Employee findEmployeeById(Long id){
         return employeeRepo.findEmployeeById(id)
-                .orElseThrow(() -> new UserNotFoundException("User doesnt exist in system"));
+                .orElseThrow(() -> new UserNotFoundException("User doesn't exist in system"));
     }
 
     public void deleteEmployee(Long id){
-        employeeRepo.deleteEmployeeById(id);
+        employeeRepo.deleteById(id);
     }
-
 }

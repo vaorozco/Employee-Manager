@@ -5,6 +5,7 @@ import java.io.Serializable;
 
 @Entity
 public class Employee implements Serializable {
+
     @Id
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
     @Column(unique = true, nullable = false, updatable = false)
