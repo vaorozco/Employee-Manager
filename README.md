@@ -12,4 +12,4 @@ This Spring Boot tutorial covers Spring Boot and MySQL using Spring Data JPA. Th
 This course also dives into Angular components, Angular Forms, Angular Routing, and Angular Services. It goes into Angular HTTP Communication."
 
 
-**Aspect that could be better: - Avoid increment of id, after deleting rows 
+**Aspect that could be better: - Avoid increment of id, after deleting rows**
